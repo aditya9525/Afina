@@ -2547,7 +2547,7 @@ h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 48px;
+    gap: 48px; 
 }
 
 .brand-image-container-gray{
