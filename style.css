@@ -652,6 +652,8 @@ h6 {
 /* Call-to-Action Button Styles */
 .cta-button-container {
     width: 100%;
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
@@ -1901,6 +1903,27 @@ h6 {
     background-color: #000;
     border-radius: 50%;
 }
+
+.result-icon-wrapper-cont {
+    position: absolute;
+    top: -28px;
+    right: 16px;
+    width: 58px;
+    height: 58px;
+    border-radius: 29px;
+    filter: drop-shadow(0px 5px 2.5px rgba(0, 0, 0, 0.18));
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.result-icon-wrapper-cont img {
+    width: 50%;
+    height: 50%;
+}
+
 
 .result-icon img {
     width: 20px;
@@ -3257,7 +3280,7 @@ h6 {
         font-size: 18px;
     }
 
-    
+
 
     .marquee-wrapper {
         margin-bottom: 0;
@@ -3428,10 +3451,12 @@ h6 {
     .mobile-view {
         display: flex;
     }
+
     .cont-left {
         width: 100%;
     }
-    .cta-button{
+
+    .cta-button {
         justify-content: space-between;
     }
 
@@ -3892,4 +3917,30 @@ h6 {
         width: 100%;
     }
 
+    .faq-section {
+        position: relative;
+    }
+    .afina-daily-essential-section{
+        overflow: hidden;
+        padding-bottom: 80px;
+        background: #fff06c url('./images/yellow-wave2.png');
+        background-position: bottom;
+        background-repeat: no-repeat;
+         object-fit: cover;
+        background-size: 100% auto;
+    }
+    .faq-section{
+        background: #fafaf6 url(./images/faq-wave.png);
+        background-position: top;
+        background-repeat: no-repeat;
+         object-fit: cover;
+        background-size: 100% auto;
+    }
+
+    .swiper.video-carousel-swiper-2{
+        overflow: visible;
+    }
+    .video-carousel-swiper-2 .swiper-wrapper .swiper-slide.swiper-slide-active{
+        transform: scaleY(1.1);
+    }
 }
