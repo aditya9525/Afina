@@ -307,10 +307,13 @@ h6 {
 }
 
 .logo {
-    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-weight: 600;
     font-size: 2rem;
     color: #111;
-    letter-spacing: -2px;
+    letter-spacing: -2px; */
 }
 
 .header-cta-btn {
@@ -503,10 +506,10 @@ h6 {
         width: 98vw;
         padding: 18px 10px 0 10px;
     }
-
+/* 
     .logo {
         font-size: 2.2rem;
-    }
+    } */
 
     .header-cta-btn {
         font-size: 1.1rem;
@@ -3700,6 +3703,9 @@ h6 {
     .text strong {
         font-size: 14px;
     }
+    .logo img{
+        height: 28px;
+    }
 
     .time-box span {
         font-size: 14px;
@@ -4009,6 +4015,8 @@ h6 {
     .header-container {
         justify-content: center;
         padding: 0;
+        padding: 6px 0;
+        min-height: 42px;
     }
 
     .heading h1 {
