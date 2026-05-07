@@ -364,9 +364,11 @@ h6 {
     flex-direction: column;
     gap: 16px;
 }
-.hero-container .cont-left{
+
+.hero-container .cont-left {
     gap: 22px;
 }
+
 .heading h1 {
     font-family: 'Playfair Display';
     font-size: 55px;
@@ -3430,6 +3432,15 @@ h6 {
 
     .cta-button {
         font-size: 22px;
+    }
+
+    .nocompromise-features .nocompromise-feature:last-child {
+        border-bottom: 0;
+    }
+
+    .feature-desc {
+        font-size: 14px;
+        line-height: 23px;
     }
 
 
