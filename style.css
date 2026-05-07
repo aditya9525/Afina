@@ -2636,9 +2636,11 @@ h6 {
     width: 100%;
     display: block;
 }
- .video-carousel-swiper-2 .video-card{
-        border: 2px solid black;
-     }
+
+.video-carousel-swiper-2 .video-card {
+    border: 2px solid black;
+    height: 513px;
+}
 
 .afina-img span {
     position: absolute;
@@ -3400,6 +3402,9 @@ h6 {
         max-width: 100%;
     }
 
+    .video-carousel-swiper-2 .video-card {
+        height: 409px;
+    }
 
 
 }
@@ -3626,6 +3631,9 @@ h6 {
 
     .meet-the-afina-filter-container {
         margin-top: 312px;
+    }
+     .video-carousel-swiper-2 .video-card {
+        height: 430px;
     }
 
     .meet-the-afina-filter-section {
@@ -3924,7 +3932,7 @@ h6 {
     .swiper.video-carousel-swiper-2 .swiper-slide.swiper-slide-active{
         transform: scaleY(1.1);
     } */
-    
+
 
     .rating-badge {
         padding: 2px 16px;
@@ -4048,7 +4056,8 @@ h6 {
         overflow: hidden;
 
     }
-    .transform-your-skin-wrapper{
+
+    .transform-your-skin-wrapper {
         gap: 15px;
     }
 
