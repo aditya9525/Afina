@@ -4080,7 +4080,7 @@ h6 {
     .video-carousel-swiper .video-card {
         min-height: unset;
         max-height: unset;
-        height: unset;
+        height: 171px;
     }
 
     .video-card-overlay span {
