@@ -4044,6 +4044,9 @@ h6 {
         overflow: hidden;
 
     }
+    .transform-your-skin-wrapper{
+        gap: 15px;
+    }
 
     .testimonials-bottom-img {
         width: 100%;
