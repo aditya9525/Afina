@@ -2636,6 +2636,9 @@ h6 {
     width: 100%;
     display: block;
 }
+ .video-carousel-swiper-2 .video-card{
+        border: 2px solid black;
+     }
 
 .afina-img span {
     position: absolute;
@@ -3921,6 +3924,7 @@ h6 {
     .swiper.video-carousel-swiper-2 .swiper-slide.swiper-slide-active{
         transform: scaleY(1.1);
     } */
+    
 
     .rating-badge {
         padding: 2px 16px;
