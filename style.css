@@ -2712,6 +2712,12 @@ h6 {
     font-weight: 400;
     font-family: "poppins", sans-serif;
 }
+.btn-dot {
+    width: 6px;
+    height: 6px;
+    background-color: #000000;
+    border-radius: 50%;
+}
 
 /* Swiper */
 .afina-filtered-swiper {
@@ -3309,6 +3315,10 @@ h6 {
         line-height: 48px;
     }
 
+    .cta-button {
+        font-size: 17px;
+    }
+
     .feature-desc {
         font-size: 11px;
         line-height: 23px;
@@ -3649,6 +3659,10 @@ h6 {
 
     .real-result-intro {
         text-align: start;
+    }
+
+    .testimonials-bottom-card{
+        border: 1px solid #d0dde8;
     }
 
     .real-results-container {
@@ -4112,6 +4126,7 @@ h6 {
 
     .testimonials-bottom-card-left {
         padding: 0 20px;
+        padding-bottom: 20px;
     }
 
     .afina-user {
